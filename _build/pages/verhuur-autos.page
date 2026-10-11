@@ -1,5 +1,5 @@
 title: Vervangwagen huren | Verhuur auto's Eeklo & Lievegem | Franky
-description: Uw auto in de garage of weggetakeld? Huur een vervangwagen bij Takeldienst Franky in Lembeke en Lievegem. Bel 0497 03 04 92.
+description: Uw auto in de garage of weggetakeld? Huur een vervangwagen bij Takeldienst Franky in Lembeke en Lievegem. Bel +32 3 375 67 37.
 label: Vervangwagens te huur
 h1: Vervangwagens te huur
 h1b: Uw auto in de garage? U blijft mobiel.
@@ -20,7 +20,7 @@ imgalt: Plateauwagen van Takeldienst Franky in het depot
 <p>Takelen we uw auto weg? Dan regelt u meteen ook uw vervangvervoer. Eén telefoontje naar Franky, en u hoeft niet zelf op zoek naar een verhuurder.</p>
 <h2>Zo huurt u een vervangwagen</h2>
 <ol class="steps">
-<li><strong>Bel ons</strong>Bel {{TEL1}} of {{TEL2}} en zeg vanaf wanneer en hoe lang u een wagen nodig hebt.</li>
+<li><strong>Bel ons</strong>Bel {{PHONE}} of stuur een WhatsApp en zeg vanaf wanneer en hoe lang u een wagen nodig hebt.</li>
 <li><strong>Beschikbaarheid</strong>Wij laten u weten welke wagen vrij is en wat de voorwaarden zijn.</li>
 <li><strong>Ophalen</strong>U haalt de wagen op in Lembeke of Lievegem, of we spreken samen iets af.</li>
 </ol>

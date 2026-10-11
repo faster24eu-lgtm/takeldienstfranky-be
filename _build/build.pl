@@ -24,7 +24,7 @@
 #   sitemap: no           leave out of sitemap
 # Sections: LEAD (intro under the h1), MAIN, FAQ ("V: ..." / "A: ..." lines).
 #
-# Placeholders: {{R}} {{TEL1}} {{TEL1_HREF}} {{TEL2}} {{TEL2_HREF}} {{EMAIL}}
+# Placeholders: {{R}} {{PHONE}} {{PHONE_HREF}} {{WA_HREF}} {{EMAIL}}
 # {{FORM}} {{GALLERY}} {{FLEET}} {{CTA}} {{VACATURE}} {{LIST:kind}}
 use strict;
 use warnings;
@@ -40,10 +40,9 @@ binmode STDOUT, ":encoding(UTF-8)";
 my $PREVIEW   = 1;
 my $BASE      = 'https://takeldienstfranky.be';
 my $NAME      = 'Takeldienst Franky';
-my $TEL1      = '0497 03 04 92';        # gsm
-my $TEL1_HREF = 'tel:+32497030492';
-my $TEL2      = '09 377 20 22';         # vast
-my $TEL2_HREF = 'tel:+3293772022';
+my $PHONE      = '+32 3 375 67 37';     # same number as takeldienstfaster.be
+my $PHONE_HREF = 'tel:+3233756737';
+my $WA_HREF    = 'https://wa.me/3233756737?text=Hallo%2C%20ik%20heb%20een%20takeldienst%20nodig.%20Mijn%20locatie%3A%20';
 my $EMAIL     = 'franky.slock@skynet.be';
 my $FORM_TO   = $EMAIL;                 # formsubmit.co: first submission sends an activation mail
 my $VAT       = 'BE0539825091';
@@ -121,7 +120,7 @@ sub list_html {
   "$h</div>";
 }
 
-my $CALL_BTNS = qq{<a class="btn btn-yellow" href="{{TEL1_HREF}}"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1A17 17 0 0 1 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1z"/></svg>{{TEL1}}</a><a class="btn btn-yellow" href="{{TEL2_HREF}}"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1A17 17 0 0 1 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1z"/></svg>{{TEL2}}</a>};
+my $CALL_BTNS = qq{<a class="btn btn-wa" href="{{WA_HREF}}"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.2-.4.7-1.4.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.3.8 3.2.6.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.2-1.2-.1-.1-.3-.2-.5-.3z"/></svg> WhatsApp</a><a class="btn btn-yellow" href="{{PHONE_HREF}}"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1A17 17 0 0 1 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1z"/></svg> {{PHONE}}</a>};
 
 sub form_html {
   return <<"H";
@@ -173,7 +172,7 @@ $CTA =~ s/CALLBTNS/$CALL_BTNS/;
 my $VACATURE = <<'H';
 <section class="section"><div class="container"><div class="vacature">
 <div><span class="eyebrow">Vacature</span><h2>Chauffeur gezocht</h2><p class="big">We zijn op zoek naar een gemotiveerde chauffeur met rijbewijs C of CE met code 95 en kennis van automechanica.</p><p>Interesse? Neem zeker contact met ons op. <a href="{{R}}vacature/">Lees meer over de vacature</a>.</p></div>
-<div class="vac-actions"><a class="btn btn-white" href="{{TEL1_HREF}}">{{TEL1}}</a><a class="btn btn-white" href="{{TEL2_HREF}}">{{TEL2}}</a></div>
+<div class="vac-actions"><a class="btn btn-white" href="{{PHONE_HREF}}">Bel {{PHONE}}</a><a class="btn btn-white" href="{{WA_HREF}}">WhatsApp</a></div>
 </div></div></section>
 H
 
@@ -205,7 +204,7 @@ sub crumbs {
 sub business_ld {
   my @area = map { qq{{"\@type":"City","name":"$_"}} } qw(Eeklo Kaprijke Lievegem Evergem Maldegem Gent);
   my $area = join ',', @area, '{"@type":"Country","name":"België"}';
-  return qq{<script type="application/ld+json">{"\@context":"https://schema.org","\@type":"AutomotiveBusiness","\@id":"$BASE/#bedrijf","name":"$NAME","url":"$BASE/","logo":"$BASE/assets/img/logo-takeldienst-franky.png","image":"$BASE/assets/img/takeldienst-franky-takelwagen-eeklo.jpg","telephone":"+32497030492","email":"$EMAIL","vatID":"$VAT","address":{"\@type":"PostalAddress","streetAddress":"Eeklostraat 63","postalCode":"9971","addressLocality":"Lembeke (Kaprijke)","addressCountry":"BE"},"geo":{"\@type":"GeoCoordinates","latitude":51.1854255,"longitude":3.6171895},"contactPoint":[{"\@type":"ContactPoint","telephone":"+32497030492","contactType":"customer service","areaServed":"BE","availableLanguage":"nl"},{"\@type":"ContactPoint","telephone":"+3293772022","contactType":"customer service","areaServed":"BE","availableLanguage":"nl"}],"department":{"\@type":"AutomotiveBusiness","name":"$NAME – depot Lievegem","telephone":"+3293772022","address":{"\@type":"PostalAddress","streetAddress":"Oostmoer 129A","postalCode":"9950","addressLocality":"Lievegem (Waarschoot)","addressCountry":"BE"}},"areaServed":[$area],"sameAs":["$FACEBOOK"]}</script>};
+  return qq{<script type="application/ld+json">{"\@context":"https://schema.org","\@type":"AutomotiveBusiness","\@id":"$BASE/#bedrijf","name":"$NAME","url":"$BASE/","logo":"$BASE/assets/img/logo-takeldienst-franky.png","image":"$BASE/assets/img/takeldienst-franky-takelwagen-eeklo.jpg","telephone":"+3233756737","email":"$EMAIL","vatID":"$VAT","address":{"\@type":"PostalAddress","streetAddress":"Eeklostraat 63","postalCode":"9971","addressLocality":"Lembeke (Kaprijke)","addressCountry":"BE"},"geo":{"\@type":"GeoCoordinates","latitude":51.1854255,"longitude":3.6171895},"contactPoint":{"\@type":"ContactPoint","telephone":"+3233756737","contactType":"customer service","areaServed":"BE","availableLanguage":"nl"},"department":{"\@type":"AutomotiveBusiness","name":"$NAME – depot Lievegem","telephone":"+3233756737","address":{"\@type":"PostalAddress","streetAddress":"Oostmoer 129A","postalCode":"9950","addressLocality":"Lievegem (Waarschoot)","addressCountry":"BE"}},"areaServed":[$area],"sameAs":["$FACEBOOK"]}</script>};
 }
 
 my $LOGO = '<a class="brand" href="{{R}}" aria-label="Takeldienst Franky, naar de homepage"><img src="{{R}}assets/img/logo-takeldienst-franky.png" alt="Takeldienst Franky Eeklo - Lievegem" width="126" height="67"></a>';
@@ -275,10 +274,10 @@ $main
 <footer class="site-footer"><div class="container footer-grid">
 <div><h3>$NAME</h3><p>Takelen en depanneren van auto&rsquo;s, moto&rsquo;s en lichte vracht in Vlaanderen en Walloni&euml;. Al meer dan 30 jaar.</p><p><a class="btn btn-white btn-small" href="{{R}}contacteer-ons/">Contacteer ons</a> <a class="btn btn-ghost btn-small" href="$MAPS_HQ" rel="noopener">Bereken route</a></p></div>
 <div><h3>Adres</h3><p>Eeklostraat 63<br>9971 Lembeke</p><p><b>Depot</b><br>Oostmoer 129A<br>9950 Lievegem</p></div>
-<div><h3>Contact</h3><p>Gsm: <a href="{{TEL1_HREF}}">{{TEL1}}</a><br>Telefoon: <a href="{{TEL2_HREF}}">{{TEL2}}</a><br>E-mail: <a href="mailto:{{EMAIL}}">{{EMAIL}}</a></p><p>Ondernemingsnr.: $VAT</p><p><a href="$FACEBOOK" rel="noopener">Volg ons op Facebook</a></p></div>
+<div><h3>Contact</h3><p>Telefoon: <a href="{{PHONE_HREF}}">{{PHONE}}</a><br>WhatsApp: <a href="{{WA_HREF}}">stuur een bericht</a><br>E-mail: <a href="mailto:{{EMAIL}}">{{EMAIL}}</a></p><p>Ondernemingsnr.: $VAT</p><p><a href="$FACEBOOK" rel="noopener">Volg ons op Facebook</a></p></div>
 <div><h3>Regio</h3>$foot_regio<a href="{{R}}regio/">Alle gemeenten</a></div>
 </div><div class="container footer-bottom"><span>&copy; $year $NAME</span><span><a href="{{R}}privacy-policy/">Privacybeleid</a> &middot; <a href="{{R}}sitemap.xml">Sitemap</a></span></div></footer>
-<div class="mobile-bar"><a href="{{TEL1_HREF}}">Bel gsm<b>{{TEL1}}</b></a><a href="{{TEL2_HREF}}">Bel vast<b>{{TEL2}}</b></a></div>
+<div class="mobile-bar"><a class="wa" href="{{WA_HREF}}">Stuur een<b>WhatsApp</b></a><a href="{{PHONE_HREF}}">Bel nu<b>{{PHONE}}</b></a></div>
 <script src="{{R}}assets/js/main.js" defer></script>
 </body>
 </html>
@@ -294,10 +293,9 @@ H
     $html =~ s/\{\{FORM\}\}/form_html()/ge;
   }
   $html =~ s/\{\{R\}\}/$R/g;
-  $html =~ s/\{\{TEL1_HREF\}\}/$TEL1_HREF/g;
-  $html =~ s/\{\{TEL1\}\}/$TEL1/g;
-  $html =~ s/\{\{TEL2_HREF\}\}/$TEL2_HREF/g;
-  $html =~ s/\{\{TEL2\}\}/$TEL2/g;
+  $html =~ s/\{\{PHONE_HREF\}\}/$PHONE_HREF/g;
+  $html =~ s/\{\{PHONE\}\}/$PHONE/g;
+  $html =~ s/\{\{WA_HREF\}\}/$WA_HREF/g;
   $html =~ s/\{\{EMAIL\}\}/$EMAIL/g;
   $html =~ s/\n{2,}/\n/g;
   warn "$p->{src}: unreplaced $1\n" while $html =~ /(\{\{[A-Z_:a-z0-9]+\}\})/g;

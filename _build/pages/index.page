@@ -1,5 +1,5 @@
 title: Takeldienst Franky | Takeldienst Eeklo, Kaprijke & Lievegem
-description: Auto laten takelen? Takeldienst Franky uit Lembeke takelt en depanneert al meer dan 30 jaar in Eeklo, Evergem, Maldegem, Gent en heel België. Bel 0497 03 04 92.
+description: Auto laten takelen? Takeldienst Franky uit Lembeke takelt en depanneert al 30+ jaar in Eeklo, Evergem, Maldegem, Gent en heel België. Bel +32 3 375 67 37.
 label: Home
 template: raw
 ===MAIN===
@@ -51,7 +51,7 @@ template: raw
 <section class="section"><div class="container">
 <div class="section-head"><div><span class="eyebrow">Zo werkt het</span><h2>Pech? In drie stappen geholpen</h2></div></div>
 <ol class="steps">
-<li><strong>Bel Franky</strong>Bel {{TEL1}} of {{TEL2}}. Zeg waar u staat, welk voertuig het is en wat er aan de hand is.</li>
+<li><strong>Bel Franky</strong>Bel {{PHONE}} of stuur een WhatsApp. Zeg waar u staat, welk voertuig het is en wat er aan de hand is.</li>
 <li><strong>Wij komen ter plaatse</strong>Een takelwagen vertrekt vanuit Lembeke of Lievegem naar uw locatie.</li>
 <li><strong>Takelen of depanneren</strong>We helpen u ter plaatse of takelen uw voertuig naar de garage of het adres dat u kiest.</li>
 </ol>
@@ -67,4 +67,4 @@ A: Wij takelen en depanneren auto's, moto's en lichte vracht. Met onze kraanwage
 V: Kan ik bij jullie een vervangwagen huren?
 A: Ja. Takeldienst Franky verhuurt nu ook vervangwagens. Bel ons voor de beschikbaarheid.
 V: Hoe bereik ik Takeldienst Franky het snelst?
-A: Bel rechtstreeks naar {{TEL1}} (gsm) of {{TEL2}}. Bellen gaat altijd sneller dan het contactformulier.
+A: Bel rechtstreeks naar {{PHONE}} of stuur een WhatsApp met uw locatie. Bellen gaat altijd sneller dan het contactformulier.

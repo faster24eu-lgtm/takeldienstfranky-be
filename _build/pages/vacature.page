@@ -1,5 +1,5 @@
 title: Vacature chauffeur C/CE code 95 | Takeldienst Franky
-description: Takeldienst Franky zoekt een gemotiveerde chauffeur met rijbewijs C of CE, code 95 en kennis van automechanica. Bel 0497 03 04 92.
+description: Takeldienst Franky zoekt een gemotiveerde chauffeur met rijbewijs C of CE, code 95 en kennis van automechanica. Bel +32 3 375 67 37.
 label: Vacature
 h1: Vacature: chauffeur takeldienst
 h1b: Rijbewijs C of CE met code 95.
@@ -19,7 +19,7 @@ imgalt: Chauffeur van Takeldienst Franky achter het stuur van een takelwagen
 <h2>Wat doet u?</h2>
 <p>U rijdt met de takelwagens van Takeldienst Franky en helpt automobilisten met pech of na een ongeval. U takelt en depanneert auto&rsquo;s, moto&rsquo;s en lichte vracht, vertrekkend vanuit Lembeke of ons depot in Lievegem (Waarschoot).</p>
 <h2>Interesse?</h2>
-<p>Neem zeker contact met ons op. Bel {{TEL1}} of {{TEL2}}, of mail naar <a href="mailto:{{EMAIL}}">{{EMAIL}}</a>.</p>
+<p>Neem zeker contact met ons op. Bel {{PHONE}} of stuur een WhatsApp, of mail naar <a href="mailto:{{EMAIL}}">{{EMAIL}}</a>.</p>
 </div>
 <aside class="side">
 <div class="info-card blue"><h3>Solliciteren</h3><p>Bel Franky voor een eerste kennismaking.</p>{{CALLBTNS}}</div>
