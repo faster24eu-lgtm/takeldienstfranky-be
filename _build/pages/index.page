@@ -1,0 +1,70 @@
+title: Takeldienst Franky | Takeldienst Eeklo, Kaprijke & Lievegem
+description: Auto laten takelen? Takeldienst Franky uit Lembeke takelt en depanneert al meer dan 30 jaar in Eeklo, Evergem, Maldegem, Gent en heel België. Bel 0497 03 04 92.
+label: Home
+template: raw
+===MAIN===
+<section class="hero">
+<div class="hero-bg"><img src="{{R}}assets/img/takeldienst-franky-takelwagen-eeklo.jpg" alt="" width="960" height="960" fetchpriority="high"></div>
+<div class="container hero-grid">
+<div>
+<h1>Takeldienst Franky voor heel België</h1>
+<p class="sub">Zoekt u een vakman om een auto te laten wegtakelen in België?</p>
+<p>Doe dan meteen een beroep op Takeldienst Franky! Met Franky in de buurt zijn uw zorgen in één klap verdwenen.</p>
+<div class="actions">{{CALLBTNS}}</div>
+<ul class="hero-points">
+<li>Meer dan 30 jaar ervaring</li>
+<li>Auto, moto en lichte vracht</li>
+<li>Vlaanderen en Wallonië</li>
+</ul>
+</div>
+<div class="form-card">
+<h2>Vraag hulp of een offerte</h2>
+<p>Laat uw gegevens achter, wij nemen zo snel mogelijk contact met u op.</p>
+{{FORM}}
+</div>
+</div>
+</section>
+
+<section class="section"><div class="container two-col">
+<div>
+<span class="new-badge">Nieuw: vervangwagens te huur</span>
+<h2>Auto laten wegtakelen in heel België? Takeldienst Franky is al onderweg.</h2>
+<p class="intro-big">Vlak bij de expresweg <strong>N49 - E34</strong> en de <strong>N9</strong>, dus snel op weg in de hele regio.</p>
+<div class="actions"><a class="btn btn-blue" href="{{R}}contacteer-ons/">Contacteer Franky</a><a class="btn btn-yellow" href="{{R}}verhuur-autos/">Vervangwagen huren</a></div>
+</div>
+<div class="prose">
+<p><strong>Takeldienst Franky</strong> takelt vlot, vriendelijk en veilig doorheen Vlaanderen en Wallonië. Al meer dan 30 jaar levert zijn service enkel tevreden klanten op. Het wegtakelen of depanneren van uw auto, moto of lichte vracht is een kunst. Doe daarom beroep op een vakman. Rekent u op één professional in uw buurt: Takeldienst Franky in Eeklo.</p>
+<p>Wij zijn gevestigd in <strong>Lembeke</strong>, hebben ook een depot in <strong>Lievegem (Waarschoot)</strong> en zijn actief in de ruime regio rond <a href="{{R}}takeldienst-evergem/">Evergem</a>, <a href="{{R}}takeldienst-eeklo/">Eeklo</a>, <a href="{{R}}takeldienst-maldegem/">Maldegem</a> en <a href="{{R}}takeldienst-gent/">Gent</a>.</p>
+</div>
+</div></section>
+
+<section class="section grey"><div class="container">
+<div class="section-head"><div><span class="eyebrow">Wat wij doen</span><h2>Takelen, depanneren en vervangvervoer</h2></div><p>Eén telefoontje en Franky regelt de rest: van de pechverhelping tot een vervangwagen.</p></div>
+<div class="card-grid">
+<a class="card" href="{{R}}depannages-takeldienst/"><img src="{{R}}assets/img/kraanwagen-tilt-mercedes.jpg" alt="" width="960" height="716" loading="lazy"><div class="card-body"><h3>Depannage &amp; takeldienst</h3><p>Uw auto, moto of lichte vracht vlot en veilig weggetakeld, waar u ook staat.</p><span class="more">Meer info &rarr;</span></div></a>
+<a class="card" href="{{R}}verhuur-autos/"><img src="{{R}}assets/img/pickup-met-aanhangwagen.jpg" alt="" width="1000" height="750" loading="lazy"><div class="card-body"><h3>Vervangwagens te huur</h3><p>Uw auto in de garage? Huur bij ons een vervangwagen zodat u mobiel blijft.</p><span class="more">Meer info &rarr;</span></div></a>
+<a class="card" href="{{R}}regio/"><img src="{{R}}assets/img/franky-met-takelwagens.jpg" alt="" width="960" height="704" loading="lazy"><div class="card-body"><h3>Takeldienst in uw buurt</h3><p>Eeklo, Kaprijke, Lievegem, Evergem, Maldegem, Gent en verder in heel België.</p><span class="more">Meer info &rarr;</span></div></a>
+</div>
+{{FLEET}}
+</div></section>
+
+<section class="section"><div class="container">
+<div class="section-head"><div><span class="eyebrow">Zo werkt het</span><h2>Pech? In drie stappen geholpen</h2></div></div>
+<ol class="steps">
+<li><strong>Bel Franky</strong>Bel {{TEL1}} of {{TEL2}}. Zeg waar u staat, welk voertuig het is en wat er aan de hand is.</li>
+<li><strong>Wij komen ter plaatse</strong>Een takelwagen vertrekt vanuit Lembeke of Lievegem naar uw locatie.</li>
+<li><strong>Takelen of depanneren</strong>We helpen u ter plaatse of takelen uw voertuig naar de garage of het adres dat u kiest.</li>
+</ol>
+</div></section>
+
+{{VACATURE}}
+{{GALLERY}}
+===FAQ===
+V: In welke regio is Takeldienst Franky actief?
+A: Wij zijn gevestigd in Lembeke (Kaprijke) en hebben een depot in Lievegem (Waarschoot). Van daaruit rijden we in de ruime regio rond Eeklo, Evergem, Maldegem en Gent, en takelen we doorheen heel Vlaanderen en Wallonië.
+V: Welke voertuigen kan Takeldienst Franky takelen?
+A: Wij takelen en depanneren auto's, moto's en lichte vracht. Met onze kraanwagen, bergingswagen en plateauwagens kiezen we telkens het juiste materieel voor uw voertuig.
+V: Kan ik bij jullie een vervangwagen huren?
+A: Ja. Takeldienst Franky verhuurt nu ook vervangwagens. Bel ons voor de beschikbaarheid.
+V: Hoe bereik ik Takeldienst Franky het snelst?
+A: Bel rechtstreeks naar {{TEL1}} (gsm) of {{TEL2}}. Bellen gaat altijd sneller dan het contactformulier.

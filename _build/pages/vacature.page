@@ -1,0 +1,28 @@
+title: Vacature chauffeur C/CE code 95 | Takeldienst Franky
+description: Takeldienst Franky zoekt een gemotiveerde chauffeur met rijbewijs C of CE, code 95 en kennis van automechanica. Bel 0497 03 04 92.
+label: Vacature
+h1: Vacature: chauffeur takeldienst
+h1b: Rijbewijs C of CE met code 95.
+img: chauffeur-takeldienst-franky.jpg
+imgalt: Chauffeur van Takeldienst Franky achter het stuur van een takelwagen
+===LEAD===
+<p>We zijn op zoek naar een gemotiveerde chauffeur met rijbewijs C of CE met code 95 en kennis van automechanica.</p>
+===MAIN===
+<section class="section"><div class="container two-col">
+<div class="prose">
+<h2>Wie zoeken we?</h2>
+<ul class="checks">
+<li>U hebt een rijbewijs C of CE met code 95.</li>
+<li>U hebt kennis van automechanica.</li>
+<li>U bent gemotiveerd en werkt graag met mensen die in een lastig parket zitten.</li>
+</ul>
+<h2>Wat doet u?</h2>
+<p>U rijdt met de takelwagens van Takeldienst Franky en helpt automobilisten met pech of na een ongeval. U takelt en depanneert auto&rsquo;s, moto&rsquo;s en lichte vracht, vertrekkend vanuit Lembeke of ons depot in Lievegem (Waarschoot).</p>
+<h2>Interesse?</h2>
+<p>Neem zeker contact met ons op. Bel {{TEL1}} of {{TEL2}}, of mail naar <a href="mailto:{{EMAIL}}">{{EMAIL}}</a>.</p>
+</div>
+<aside class="side">
+<div class="info-card blue"><h3>Solliciteren</h3><p>Bel Franky voor een eerste kennismaking.</p>{{CALLBTNS}}</div>
+<div class="info-card"><img src="{{R}}assets/img/team-takeldienst-franky.jpg" alt="Team van Takeldienst Franky steekt de duim op bij de takelwagen" width="1000" height="749" loading="lazy"><h3>Kom ons team versterken</h3></div>
+</aside>
+</div></section>

@@ -1,0 +1,22 @@
+title: Privacybeleid | Takeldienst Franky
+description: Hoe Takeldienst Franky omgaat met de persoonsgegevens die u via deze website of telefonisch doorgeeft.
+label: Privacybeleid
+h1: Privacybeleid
+cta: no
+===MAIN===
+<section class="section"><div class="container narrow prose">
+<h2>Wie zijn wij?</h2>
+<p>Takeldienst Franky, Eeklostraat 63, 9971 Lembeke, ondernemingsnummer BE0539825091, e-mail <a href="mailto:{{EMAIL}}">{{EMAIL}}</a>. Wij zijn verantwoordelijk voor de verwerking van uw persoonsgegevens.</p>
+<h2>Welke gegevens verwerken wij?</h2>
+<p>Als u het contactformulier invult, ontvangen wij uw naam, telefoonnummer, e-mailadres, de locatie van uw voertuig en uw opmerking. Als u ons belt, noteren wij de gegevens die nodig zijn om u te helpen.</p>
+<h2>Waarom?</h2>
+<p>Wij gebruiken uw gegevens alleen om uw aanvraag te beantwoorden, de takel- of depannageopdracht uit te voeren en te factureren. Wij verkopen uw gegevens niet en gebruiken ze niet voor reclame.</p>
+<h2>Met wie delen wij uw gegevens?</h2>
+<p>Het contactformulier wordt verstuurd via de dienst FormSubmit (formsubmit.co), die het bericht naar ons e-mailadres doorstuurt. Waar nodig voor de opdracht delen wij gegevens met uw garage of verzekeraar.</p>
+<h2>Hoe lang bewaren wij uw gegevens?</h2>
+<p>Niet langer dan nodig voor de opdracht en de wettelijke bewaartermijnen, zoals die voor de boekhouding.</p>
+<h2>Cookies</h2>
+<p>Deze website gebruikt geen tracking- of advertentiecookies. De lettertypes worden geladen via Google Fonts.</p>
+<h2>Uw rechten</h2>
+<p>U kunt uw gegevens altijd inkijken, laten verbeteren of laten verwijderen. Mail ons op <a href="mailto:{{EMAIL}}">{{EMAIL}}</a>. Bent u het niet eens met hoe wij met uw gegevens omgaan, dan kunt u klacht indienen bij de Gegevensbeschermingsautoriteit (<a href="https://www.gegevensbeschermingsautoriteit.be" rel="noopener">gegevensbeschermingsautoriteit.be</a>).</p>
+</div></section>

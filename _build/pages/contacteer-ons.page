@@ -1,0 +1,24 @@
+title: Contact | Takeldienst Franky Lembeke & Lievegem
+description: Contacteer Takeldienst Franky: bel 0497 03 04 92 of 09 377 20 22. Eeklostraat 63, 9971 Lembeke. Depot: Oostmoer 129A, 9950 Lievegem.
+label: Contact
+h1: Contacteer ons
+h1b: Bel ons, of laat een bericht achter.
+===LEAD===
+<p>Pech of een ongeval? Bel ons rechtstreeks, dat gaat het snelst. Voor andere vragen kunt u ook het formulier gebruiken of mailen.</p>
+===MAIN===
+<section class="section"><div class="container contact-grid">
+<div>
+<h2>Gegevens</h2>
+<div class="address-cards">
+<div class="info-card"><h3>Takeldienst Franky</h3><p>Eeklostraat 63<br>9971 Lembeke (Kaprijke)</p><a class="btn btn-blue btn-small" href="https://www.google.com/maps/search/?api=1&amp;query=Eeklostraat+63+9971+Lembeke" rel="noopener">Bereken route</a></div>
+<div class="info-card"><h3>Depot</h3><p>Oostmoer 129A<br>9950 Lievegem (Waarschoot)</p><a class="btn btn-blue btn-small" href="https://www.google.com/maps/search/?api=1&amp;query=Oostmoer+129A+9950+Lievegem" rel="noopener">Bereken route</a></div>
+</div>
+<div class="info-card blue" style="margin-top:1rem"><h3>Telefoon</h3><p>Gsm: <a href="{{TEL1_HREF}}">{{TEL1}}</a><br>Telefoon: <a href="{{TEL2_HREF}}">{{TEL2}}</a><br>E-mail: <a href="mailto:{{EMAIL}}">{{EMAIL}}</a></p>{{CALLBTNS}}</div>
+<p style="margin-top:1.2rem">Ondernemingsnummer: BE0539825091<br><a href="https://www.facebook.com/takeldienstfranky.be/" rel="noopener">Volg Takeldienst Franky op Facebook</a></p>
+</div>
+<div class="form-card">
+<h2>Stuur ons een bericht</h2>
+<p>Wij nemen zo snel mogelijk contact met u op.</p>
+{{FORM}}
+</div>
+</div></section>
